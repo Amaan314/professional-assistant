@@ -194,7 +194,7 @@ if "langchain_session_id" not in st.session_state:
 
 # Initialize chat history for Streamlit display
 if "messages" not in st.session_state:
-    st.session_state.messages = [{"role": "assistant", "content": "hi, I am a personal assitant developed by Amaan Poonawala. I am here to assist you with your queries regarding Amaan's work, projects, and background. so don't even try to ask me some stupid random stuff like what is 2 + 2, or what is the weight of the sun. so keeping that in mind, how can I help you today?"}]
+    st.session_state.messages = [{"role": "assistant", "content": "hi, I am a personal assistant developed by Amaan Poonawala. I am here to assist you with your queries regarding Amaan's work, projects, and background. so don't even try to ask me some stupid random stuff like what is 2 + 2, or what is the weight of the sun. so keeping that in mind, how can I help you today?"}]
 
 # Display chat messages
 for msg in st.session_state.messages:
