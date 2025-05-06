@@ -2,9 +2,8 @@
 streamlit>=1.25.0        # Streamlit lets you transform Python scripts into interactive web apps :contentReference[oaicite:0]{index=0}
 
 # Pinecone vector database SDK + sparse (BM25) support
-pinecone>=6.0.0          # Official Pinecone Python SDK (renamed from pinecone‑client to pinecone) :contentReference[oaicite:1]{index=1}
-pinecone‑text>=0.3.0     # Pinecone Text Client for BM25 sparse encodings :contentReference[oaicite:2]{index=2}
-
+pinecone>=6.0.0          
+pinecone-text>=0.1.0           
 # LangChain core + community integrations
 langchain>=0.0.242       # Core LangChain package for chains, retrievers, etc. :contentReference[oaicite:3]{index=3}
 langchain‑core>=0.1.0    # LangChain Core abstractions power the ecosystem :contentReference[oaicite:4]{index=4}
