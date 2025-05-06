@@ -1,13 +1,8 @@
-# Interactive UI framework
-streamlit>=1.25.0        # Streamlit lets you transform Python scripts into interactive web apps :contentReference[oaicite:0]{index=0}
-
-# Pinecone vector database SDK + sparse (BM25) support
-pinecone>=6.0.0          
-pinecone-text>=0.1.0           
-# LangChain core + community integrations
-langchain>=0.0.242       # Core LangChain package for chains, retrievers, etc. :contentReference[oaicite:3]{index=3}
-langchain‑core>=0.1.0    # LangChain Core abstractions power the ecosystem :contentReference[oaicite:4]{index=4}
-langchain‑community>=0.0.1 # Third‑party integrations (e.g., Pinecone hybrid retriever) :contentReference[oaicite:5]{index=5}
-
-# Google Gemini (Generative AI) integration
-langchain‑google‑genai>=2.1.4  # LangChain integration for Google Gemini models & embeddings :contentReference[oaicite:6]{index=6}
+streamlit>=1.25.0               # Streamlit for building the UI :contentReference[oaicite:0]{index=0}
+pinecone>=6.0.0                 # Official Pinecone Python SDK (renamed from pinecone‑client) :contentReference[oaicite:1]{index=1}
+pinecone-text>=0.1.0            # Pinecone Text Client for sparse (BM25) encoding :contentReference[oaicite:2]{index=2}
+langchain>=0.0.242              # Core LangChain framework :contentReference[oaicite:3]{index=3}
+langchain-core>=0.0.3           # LangChain Core abstractions :contentReference[oaicite:4]{index=4}
+langchain-community>=0.0.1      # Community integrations for LangChain :contentReference[oaicite:5]{index=5}
+langchain-google-genai>=2.1.4   # LangChain integration for Google Gemini models :contentReference[oaicite:6]{index=6}
+python-frontmatter>=1.0.0       # Parse YAML front matter in Markdown files :contentReference[oaicite:7]{index=7}
